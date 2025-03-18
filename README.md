@@ -1,31 +1,48 @@
 # Teste Econverse: Vaga Desenvolvedor Front-End
 
-### Vem ser #Econverse!
+# ---------------ATENÇÃO-----------------------------------
+Acabei fazendo o projeto todo no meu repositorio do gitHub <a href="https://github.com/juninho-Oliveira/teste-frontend">repositorio</a>, não tinha entendido direito e acabei finalizando o projeto lá.
 
-Segue abaixo as instruções para a execução do teste.
+## Descrição
 
-## Instruções
-- Faça um fork desse projeto para a sua conta pessoal do GitHub.
-- Desenvolva a página conforme as **Especificações Técnicas** 
-- Crie um README com as instruções para compilar, testar e rodar o projeto.
-- O link do repositório deverá ser enviado para o e-mail ana.nascimento@econverse.com.br, joao.victor@econverse.com.br e eduardo.rodrigues@econverse.com.br com o título **Teste Vaga FrontEnd Jr**
+Este repositório contém o projeto de teste para a vaga de Desenvolvedor Front-End Jr. da Econverse. O objetivo foi desenvolver uma página em React com TypeScript, seguindo as especificações fornecidas e consumindo dados de produtos em JSON a partir de uma API. O projeto também inclui um modal interativo para exibir detalhes dos produtos e foi estilizado utilizando SCSS.
 
-## Especificações Técnicas
-- Desenvolver a pagina em React e TypeScript conforme o [layout](https://www.figma.com/file/rWnzPeoxgynuNPsJjV0VmV/Teste-Front-End-Jr?node-id=0%3A1). Para conseguir pegar os elementos do Figma, basta copiar o layout para sua conta que terá acesso de edição.
-- Montar a [vitrine](https://app.econverse.com.br/teste-front-end/junior/tecnologia/layout/vitrine-produtos.png) de produtos consumindo as informações dos produtos em json atraves desse [Link](https://app.econverse.com.br/teste-front-end/junior/tecnologia/lista-produtos/produtos.json).
-- Desenvolver a interação ao clicar em um produto conforme layout. A interação consiste em abrir um modal com as principais informações do produto presente no arquivo [JSON](https://app.econverse.com.br/teste-front-end/junior/tecnologia/lista-produtos/produtos.json) conforme o produto que clicar.
-- Utilizar Pré-processador Sass, Less ou Stylus.
-- Respeitar o Layout pixel a pixel, tamanho das fontes, cores e botões.
-- Não Utilizar bibliotecas UI como Bootstrap, Foundation, ou afins.
+## Tecnologias Utilizadas
 
-## Pontos Extras
-- Utilizar Boas práticas de SEO
-- Uso de HTML semântico
+- **React**: Biblioteca para construção da interface.
+- **TypeScript**: Tipagem estática para garantir a segurança do código.
+- **Axios**: Biblioteca para realizar requisições HTTP e consumir dados da API.
+- **React-Icons**: Para adicionar ícones aos botões da interface.
+- **SCSS (Sass)**: Pré-processador CSS utilizado para estilização.
 
-## O que avaliaremos em seu teste
-- Organização do projeto
-- Lógica do código
-- Componentização
-- Alcance dos objetivos propostos
 
-**Boa sorte! ;)**
+### Funcionalidades
+
+- Vitrine de Produtos: Exibe uma lista de produtos consumidos de um arquivo JSON.
+
+- Interação com Modal: Ao clicar em um produto, um modal exibe detalhes adicionais sobre ele.
+- Responsividade: A página foi projetada para ser responsiva e se adaptar a diferentes tamanhos de tela.
+
+### Estrutura do Projeto
+- **src/**: Contém os arquivos de código-fonte.
+- **components/**: Componentes reutilizáveis como a vitrine de produtos e o modal.
+- **styles/**: Arquivos SCSS para a estilização da página.
+- **api/**: Arquivo de configuração do Axios para realizar as requisições.
+
+### Links
+- API de Produtos: <a href="https://lista-de-produtos.onrender.com/products">Link da API</a>
+
+## 🌐 Deploy
+
+<a href="https://teste-frontend-eight.vercel.app/">Teste-Front-End</a>
+
+## Layout
+
+![Imagem 1](/tela.png)
+
+[![Static Badge](https://img.shields.io/badge/Acessar_Layout-Figma-2304D361)](https://www.figma.com/design/rWnzPeoxgynuNPsJjV0VmV/Teste-Front-End-Jr?node-id=0-1&p=f&t=wg8xPwqtQrXR98pW-0)
+
+## 👨‍💻 Autor
+
+Feito por [Damião Junior](https://www.linkedin.com/in/dami%C3%A3o-junior-6568531ab/). Fique à vontade para entrar em contato!
+
